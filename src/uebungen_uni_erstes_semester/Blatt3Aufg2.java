@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 public class Blatt3Aufg2 {
+//sortieren von 4 eingegebenen Zahlen	
 	public static void main(String[] args) {
 
 		try {
