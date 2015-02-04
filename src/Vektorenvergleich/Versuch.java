@@ -33,7 +33,6 @@ public class Versuch {
 			System.out.println("");
 			http.sendGet(liste);
 		} catch (IOException e) {
-			// Sollte eigentlich nie passieren
 			e.printStackTrace();
 			/* Eingabe zuende */}
 	}
@@ -43,6 +42,7 @@ public class Versuch {
 
 		double max = 0;
 		System.out.println("last = greatest");
+		//Verschachtelte Schleifen zur Abfrage
 		for (String e1 : liste) {
 			for (String e2 : liste) {
 				if (e1 != e2) {
@@ -69,6 +69,7 @@ public class Versuch {
 
 					double W = Double.parseDouble(response.toString().replaceAll("\"", ""));
 
+                                        //sortieren der Vektoren 
 					if (W > max) {
 						max = W;
 						System.out.println(e1 + " " + e2 + " : " + W);
