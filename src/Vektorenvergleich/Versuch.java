@@ -69,7 +69,7 @@ public class Versuch {
 
 					double W = Double.parseDouble(response.toString().replaceAll("\"", ""));
 
-                                        //sortieren der Vektoren 
+                                        //sortieren der Vektoren und Elemente
 					if (W > max) {
 						max = W;
 						System.out.println(e1 + " " + e2 + " : " + W);
