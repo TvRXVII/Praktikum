@@ -1,7 +1,7 @@
 package uebungen_uni_erstes_semester;
 
 public class Blatt2Auf1 {
-
+//simple Rechenaufgabe
 	public static void main(String[] args) {
 
 		double Ergebnis1 = 3.2 * 3.1415 * 8;
