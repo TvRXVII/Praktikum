@@ -5,9 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Blatt3Aufg4 {
-
+//Quersumme einer 3-stelligen Zahl bestimmen
 	public static void main(String[] args) {
-		try {
+		try {   
+			System.out.println("Zahl bitte Ziffernweise eingeben.");
 			BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
 			System.out.println("1.Ziffer=");
 			String Ziffer1 = console.readLine();
