@@ -29,7 +29,8 @@ public class HttpURLConnectionExample {
 			// Eingabe2
 			System.out.print("Suchanfrage2: ");
 			String Eingabe2 = console.readLine();
-
+                        //Eigabe beendet
+                        
 			String url = "http://vmdeb20.deri.ie:8890/esaservice?task=esa&term1=" + Eingabe1 + "&term2=" + Eingabe2;
 			// HTTP-Code mit Wörtern eingebunden
 			URL obj = new URL(url);
@@ -60,7 +61,6 @@ public class HttpURLConnectionExample {
 		} catch (IOException e) {
 			// Sollte eigentlich nie passieren
 			e.printStackTrace();
-			// Eingabe1 zuende
 		}
 	}
 
